@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Credits>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="16">Intersect Engine</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">Copyright (c) 2017 Ascension Game Dev</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">https://www.freemmorpgmaker.com</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="14">Developers:</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">JC Snider (aka jcsnider)</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">Joe Bridges (aka Kibbelz)</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">Robert Lodicolo (aka *Panda*)</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="14">Graphic Designers:</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">George Bailey (aka George) - Tilesets/Graphic Style</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">Cordell Carrier (aka Murdoc) - Tilesets</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">Jon Collier (aka Zetasis) - Characters</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">QuoteFox - Animations, Monsters</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">Joe Williamson (@JoeCreates) - Item Icons</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">7Soul (http://7soul1.deviantart.com/) - Item and Skill Icons</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="14">UI Engineer:</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">YOUR NAME HERE!</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="14">Audio:</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">YOUR NAME HERE!</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="14">Etc:</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12">To be continued. Dozens to add. Please with bear us!</Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+  <Line color="255,255,255,255" alignment="center" font="arial" size="12"></Line>
+</Credits>

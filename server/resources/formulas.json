@@ -1,0 +1,8 @@
+{
+  "ExpFormula": {
+    "Source": "BaseExp * Power(Gain, Level)"
+  },
+  "MagicDamage": "Random((BaseDamage + (A_AbilityPwr/4)) * CritMultiplier * .975, (BaseDamage + (A_AbilityPwr/4)) * CritMultiplier * 1.025) -  (V_MagicResist/5)",
+  "PhysicalDamage": "Random((BaseDamage + (A_Attack/4))  * CritMultiplier * .975, (BaseDamage + (A_Attack/4)) * CritMultiplier * 1.025) - (V_Defense/5)",
+  "TrueDamage": "Random(((BaseDamage + (ScalingStat * ScaleFactor))) * CritMultiplier * .975, ((BaseDamage + (ScalingStat * ScaleFactor))) * CritMultiplier * 1.025)"
+}

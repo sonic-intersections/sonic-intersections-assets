@@ -1,0 +1,58 @@
+{
+  "Characters": {
+    "no": "n",
+    "yes": "y"
+  },
+  "Exceptions": {
+    "errorcaught": "The Intersect Migration tool has encountered an error and must close. Error information can be found in resources/migration_errors.log. Press any key to exit."
+  },
+  "Intro": {
+    "cancelling": "Cancelling Upgrade",
+    "confirmdirectory": "Make sure you are launching this tool from the server directory.",
+    "confirmupgrade": "Do you want to Upgrade? ({00}/{01})",
+    "nodatabase": "Failed to find an Intersect database to Upgrade.",
+    "outofdate": "Out-of-date database found. Version: {00} Latest Version: {01}",
+    "purpose": "Use this to update your database when deploying newer versions of Intersect.",
+    "starting": "Starting Upgrade Process",
+    "support": "For help, support, and updates visit: https://ascensiongamedev.com",
+    "tooloutofdate": "Is this migration tool up to date?",
+    "uptodate": "Database does not appear to be out of date. Version: {00} Latest Version: {01}"
+  },
+  "Main": {
+    "exit": "Press any key to exit.",
+    "tagline": "                          free 2d orpg engine",
+    "title": "Intersect Migration Tool",
+    "version": "Version {00}"
+  },
+  "Upgrade": {
+    "backupinfo": "Version {00} backup is located at resources/intersect_v{01}_{02}.db in case of problems.",
+    "noinstructions": "Upgrade instructions could not be found!",
+    "updated": "Database successfully updated to version {00}."
+  },
+  "Migration": {
+    "newdatabase": "Starting in Beta 5, Intersect introduces several database changes.\r\n - Player data and server data are now being split into multiple databases.\r\n - You may choose Sqlite or Mysql as the engine for each database.\r\n\r\nWe highly recommend choosing Sqlite (a local file) for both databases. \r\n\r\nUsing a networked Mysql instance for player data is okay but Mysql is highly discouraged for game data.\r\n\r\nThe following prompts will walk you through required configuration steps and bring your new databases online.",
+    "presstocontinue": "Press any key to continue...",
+    "playerdb": "Let's start with the player database, which database engine would you like to use?",
+    "playerdbsqlite": "   [1] Sqlite (Local, easy, no setup required!)",
+    "playerdbmysql": "   [2] Mysql (Networked, and for advanced users only!)",
+    "gamedbsqlite": "   [1] Sqlite (Local, easy, no setup required!)",
+    "gamedbmysql": "   [2] Mysql (Networked, for advanced users only, and strongly discouraged for game data!)",
+    "gamedb": "Now we need to setup the game database, this contains big chunks of data like maps. Which database engine would you like to use? (Sqlite highly recommended!)",
+    "invalidinput": "Invalid input!",
+    "entermysqlinfo": "Please enter your Mysql connection parameters:",
+    "mysqlhost": "Host: ",
+    "mysqlport": "Port: ",
+    "mysqldatabase": "Database: ",
+    "mysqluser": "User: ",
+    "mysqlpass": "Password: ",
+    "mysqlconnecting": "Please wait, attempting to connect to database...  ",
+    "mysqlconnected": "Connected!",
+    "mysqlnotempty": "Database must be empty before migration! Please delete any tables before proceeding!",
+    "mysqlconnectionerror": "Error opening db connection! Error: {00}",
+    "mysqltryagain": "Would you like to try entering your connection info again? (y/n)  ",
+    "tryagaincharacter": "y",
+    "mysqlsetupcancelled": "Mysql setup cancelled.",
+    "migratingpleasewait": "Starting migration, please wait! This might take several minutes....",
+    "upgradecomplete": "Database migrated successfully! Feel free to delete this migration tool. Press any key to exit!"
+  }
+}

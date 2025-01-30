@@ -1,0 +1,391 @@
+{
+  "GameName": "Sonic Intersections",
+  "ServerPort": 5400,
+  "AdminOnly": false,
+  "BlockClientRegistrations": false,
+  "MaxClientConnections": 100,
+  "MaximumLoggedInUsers": 50,
+  "UPnP": true,
+  "OpenPortChecker": true,
+  "PortCheckerUrl": null,
+  "Logging": {
+    "Level": "Information",
+    "Chat": true,
+    "GuildActivity": true,
+    "Trade": true,
+    "UserActivity": true
+  },
+  "Metrics": {
+    "Enable": true
+  },
+  "GameDatabase": {
+    "Type": "SQLite",
+    "Server": "localhost",
+    "Port": 3306,
+    "Database": "",
+    "Username": "",
+    "Password": "",
+    "LogLevel": "Error",
+    "KillServerOnConcurrencyException": false
+  },
+  "LoggingDatabase": {
+    "Type": "SQLite",
+    "Server": null,
+    "Port": 3306,
+    "Database": null,
+    "Username": null,
+    "Password": null,
+    "LogLevel": "Error",
+    "KillServerOnConcurrencyException": false
+  },
+  "PlayerDatabase": {
+    "Type": "SQLite",
+    "Server": "localhost",
+    "Port": 3306,
+    "Database": "",
+    "Username": "",
+    "Password": "",
+    "LogLevel": "Error",
+    "KillServerOnConcurrencyException": false
+  },
+  "Security": {
+    "IpBlacklist": [],
+    "Packets": {
+      "MinimumPing": 10,
+      "ErrorMarginFactor": 0.25,
+      "NaturalLowerMargin": 0,
+      "NaturalUpperMargin": 500,
+      "AllowedSpikePackets": 5,
+      "BaseDesyncForegiveness": 400,
+      "DesyncForgivenessFactor": 2.0,
+      "DesyncForgivenessInterval": 5000,
+      "EditorThresholds": {
+        "MaxPacketSize": 2147483647,
+        "MaxPacketPerSec": 2147483647,
+        "KickAvgPacketPerSec": 2147483647
+      },
+      "PlayerThresholds": {
+        "MaxPacketSize": 10240,
+        "MaxPacketPerSec": 50,
+        "KickAvgPacketPerSec": 30
+      },
+      "ModAdminThresholds": {
+        "MaxPacketSize": 2147483647,
+        "MaxPacketPerSec": 2147483647,
+        "KickAvgPacketPerSec": 2147483647
+      },
+      "DefaultThresholds": {
+        "MaxPacketSize": 10240,
+        "MaxPacketPerSec": 5,
+        "KickAvgPacketPerSec": 3
+      }
+    }
+  },
+  "SmtpSettings": {
+    "FromAddress": "",
+    "FromName": "",
+    "Host": "",
+    "Port": 587,
+    "UseSsl": true,
+    "Username": "",
+    "Password": ""
+  },
+  "AnimatedSprites": [
+    ""
+  ],
+  "Packets": {
+    "BatchPlayerMovementPackets": true,
+    "BatchActionMessagePackets": true,
+    "BatchAnimationPackets": true
+  },
+  "Chat": {
+    "MaxChatLength": 120,
+    "MinIntervalBetweenChats": 400,
+    "ShowAnnouncementBanners": true,
+    "AnnouncementDisplayDuration": 5000
+  },
+  "Combat": {
+    "BlockingSlow": 1,
+    "CombatTime": 10000,
+    "MaxAttackRate": 200,
+    "MaxDashSpeed": 200,
+    "MinAttackRate": 1000,
+    "RegenTime": 3000,
+    "EnableCombatChatMessages": false,
+    "MovementCancelsCast": false,
+    "MatchGroupCooldowns": true,
+    "MatchGroupCooldownHighest": true,
+    "LinkSpellAndItemCooldowns": true,
+    "EnableGlobalCooldowns": false,
+    "GlobalCooldownDuration": 1500,
+    "MaxPlayerAutoTargetRadius": 15,
+    "RegenVitalsInCombat": false,
+    "EnableTurnAroundWhileCasting": false,
+    "EnableTargetWindow": true,
+    "EnableAutoSelfCastFriendlySpellsWhenTargetingHostile": false,
+    "EnableAllPlayersFriendlyInSafeZone": false
+  },
+  "Equipment": {
+    "WeaponSlot": 2,
+    "Paperdoll": {
+      "Down": [
+        "Player",
+        "Helmet",
+        "Armor",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ],
+      "Left": [
+        "Player",
+        "Helmet",
+        "Armor",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ],
+      "Right": [
+        "Player",
+        "Helmet",
+        "Armor",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ],
+      "Up": [
+        "Player",
+        "Helmet",
+        "Armor",
+        "Weapon",
+        "Shield",
+        "Boots"
+      ]
+    },
+    "ShieldSlot": 3,
+    "Slots": [
+      "Helmet",
+      "Armor",
+      "Weapon",
+      "Shield",
+      "Boots"
+    ],
+    "ToolTypes": [
+      "Axe",
+      "Pickaxe",
+      "Shovel",
+      "Fishing Rod"
+    ]
+  },
+  "EventWatchdogKillThreshold": 5000,
+  "Passability": {
+    "Arena": false,
+    "Normal": false,
+    "Safe": true
+  },
+  "ValidPasswordResetTimeMinutes": 30,
+  "Map": {
+    "DisableExpLossInArenaMaps": false,
+    "DisablePlayerDropsInArenaMaps": false,
+    "EnableCrossingDiagonalBlocks": false,
+    "EnableDiagonalMovement": true,
+    "GameBorderStyle": "Seamless",
+    "ItemAttributeRespawnTime": 15000,
+    "Layers": {
+      "LowerLayers": [
+        "Ground",
+        "Mask 1",
+        "Mask 2"
+      ],
+      "MiddleLayers": [
+        "Fringe 1"
+      ],
+      "UpperLayers": [
+        "Fringe 2"
+      ],
+      "DestroyOrphanedLayers": false
+    },
+    "MapHeight": 26,
+    "MapItemHeight": 32,
+    "MapItemWidth": 32,
+    "MapWidth": 32,
+    "TileHeight": 32,
+    "TileWidth": 32,
+    "TimeUntilMapCleanup": 30000,
+    "ZDimensionVisible": true
+  },
+  "Player": {
+    "AllowCombatMovement": true,
+    "AutoTurnToTargetDelay": 500,
+    "AutoTurnToTargetIgnoresEntitiesBehind": false,
+    "EnableAutoTurnToTarget": true,
+    "EnableFriendLoginNotifications": true,
+    "ExpLossFromCurrentExp": true,
+    "ExpLossOnDeathPercent": 0,
+    "HotbarSlotCount": 10,
+    "InitialBankslots": 100,
+    "ItemDropChance": 0,
+    "MaxCharacters": 5,
+    "MaxInventory": 35,
+    "MaxLevel": 100,
+    "MaxSpells": 35,
+    "MaxStat": 900,
+    "RequestTimeout": 300000,
+    "ShowLevelByName": false,
+    "SkipCharacterSelect": false,
+    "TradeRange": 6
+  },
+  "Party": {
+    "MaximumMembers": 4,
+    "SharedXpRange": 40,
+    "NpcDeathCommonEventStartRange": 0,
+    "BonusExperiencePercentPerMember": 0.0
+  },
+  "Loot": {
+    "ItemDespawnTime": 15000,
+    "ItemOwnershipTime": 5000,
+    "ShowUnownedItems": false,
+    "ConsolidateMapDrops": true,
+    "EnableLootWindow": true,
+    "MaximumLootWindowItems": 10,
+    "MaximumLootWindowDistance": 3,
+    "IndividualizedLootAutoIncludePartyMembers": false
+  },
+  "Processing": {
+    "CpsLock": true,
+    "MinLogicThreads": 2,
+    "MaxLogicThreads": 4,
+    "LogicThreadIdleTimeout": 20000,
+    "MinNetworkThreads": 2,
+    "MaxNetworkThreads": 4,
+    "NetworkThreadIdleTimeout": 20000,
+    "MinDatabaseThreads": 2,
+    "MaxDatabaseThreads": 4,
+    "DatabaseThreadIdleTimeout": 20000,
+    "DatabaseSaveServerVariablesInterval": 60000,
+    "MinSystemThreadpoolWorkerThreads": -1,
+    "MaxSystemThreadpoolWorkerThreads": -1,
+    "MinSystemThreadpoolIOThreads": -1,
+    "MaxSystemThreadpoolIOThreads": -1,
+    "MapUpdateInterval": 50,
+    "ProjectileUpdateInterval": 50,
+    "PlayerSaveInterval": 120000,
+    "CommonEventAutorunStartInterval": 500,
+    "StaleCooldownRemovalTimer": 60000
+  },
+  "Sprites": {
+    "AttackFrames": 4,
+    "CastFrames": 4,
+    "IdleFrames": 4,
+    "IdleFrameDuration": 200,
+    "IdleStartDelay": 4000,
+    "NormalFrames": 4,
+    "NormalAttackFrame": 3,
+    "NormalBlockFrame": 2,
+    "NormalCastFrame": 2,
+    "NormalDashFrame": 1,
+    "MovingFrameDuration": 200,
+    "ShootFrames": 4,
+    "WeaponFrames": 4
+  },
+  "Npc": {
+    "AllowResetRadius": false,
+    "ResetRadius": 8,
+    "AllowNewResetLocationBeforeFinish": false,
+    "ResetVitalsAndStatuses": false,
+    "ContinuouslyResetVitalsAndStatuses": false,
+    "AllowEngagingWhileResetting": false,
+    "ShowLevelByName": false,
+    "IntangibleDuringReset": true,
+    "ResetIfCombatTimerExceeded": true
+  },
+  "Quest": {
+    "Categories": [
+      "Main Quests",
+      "Side Quests",
+      "Completed Quests"
+    ]
+  },
+  "Guild": {
+    "AllowGuildMemberPvp": false,
+    "ShowGuildNameTagsOverMembers": true,
+    "GuildUpdateInterval": 10000,
+    "DeleteStaleGuildsAfterDays": -1,
+    "InitialBankSlots": 50,
+    "Ranks": [
+      {
+        "Title": "Master",
+        "Limit": 1,
+        "Permissions": {
+          "Invite": true,
+          "Kick": true,
+          "Promote": true,
+          "Demote": true,
+          "BankRetrieve": true,
+          "BankDeposit": true,
+          "BankMove": true
+        }
+      },
+      {
+        "Title": "Officer",
+        "Limit": 10,
+        "Permissions": {
+          "Invite": true,
+          "Kick": true,
+          "Promote": true,
+          "Demote": true,
+          "BankRetrieve": true,
+          "BankDeposit": true,
+          "BankMove": true
+        }
+      },
+      {
+        "Title": "Member",
+        "Limit": -1,
+        "Permissions": {
+          "Invite": false,
+          "Kick": false,
+          "Promote": false,
+          "Demote": false,
+          "BankRetrieve": false,
+          "BankDeposit": true,
+          "BankMove": false
+        }
+      },
+      {
+        "Title": "Newbie",
+        "Limit": -1,
+        "Permissions": {
+          "Invite": false,
+          "Kick": false,
+          "Promote": false,
+          "Demote": false,
+          "BankRetrieve": false,
+          "BankDeposit": false,
+          "BankMove": false
+        }
+      }
+    ]
+  },
+  "Bank": {
+    "MaxSlots": 500
+  },
+  "Instancing": {
+    "SharedInstanceRespawnInInstance": true,
+    "RejoinableSharedInstances": false,
+    "MaxSharedInstanceLives": 3,
+    "BootAllFromInstanceWhenOutOfLives": true,
+    "LoseExpOnInstanceDeath": false,
+    "BlockPartyInvitesInInstance": false,
+    "KickPartyMembersOnKick": true
+  },
+  "Items": {
+    "RarityTiers": [
+      "None",
+      "Common",
+      "Uncommon",
+      "Rare",
+      "Epic",
+      "Legendary"
+    ]
+  }
+}

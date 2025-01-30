@@ -1,0 +1,806 @@
+﻿{
+  "Account": {
+    "AccountAlreadyExists": "Account already exists!",
+    "AccountDoesNotExist": "Account does not exist.",
+    "AdminOnly": "The server is currently allowing only admins to connect. Come back later!",
+    "AlreadyBanned": "{00} has already been banned!",
+    "AlreadyMuted": "{00} has already been muted!",
+    "BadAccess": "Access denied! Invalid power level!",
+    "BadLogin": "Username or password incorrect.",
+    "BanStatus": "Your account has been banned since: {00} by {01}. Ban expires: {02}. Reason for ban: {03}",
+    "Banned": "{00} has been banned!",
+    "CharacterExists": "An account with this character name exists. Please choose another.",
+    "CharacterDeleted": "The character has been deleted.",
+    "DeleteCharacterError": "This character cannot be deleted, they may be stuck online in combat.",
+    "EmailExists": "An account with this email address already exists.",
+    "EmailFail": "Failed to send your password reset email at this time. Please try again later.",
+    "InvalidClass": "Invalid class selected. Try again.",
+    "InvalidEmail": "The chosen email does not meet requirements set by the server.",
+    "InvalidName": "The chosen name does not meet requirements set by the server.",
+    "LoadFail": "Failed to load account. Please try logging in again.",
+    "PlayerSavingTryAgainLater": "'{00}' is currently being saved, please try again later.",
+    "MaxCharacters": "You have already created the maximum number of characters. Delete one before creating a new one.",
+    "Muted": "{00} has been muted!",
+    "MuteStatus": "Your account has been muted since: {00} by {01}. Mute expires: {02}. Reason for mute: {03}",
+    "NotAllowed": "You do not have the permission to do this.",
+    "NotFound": "Error: Account {00} was not found!",
+    "RegistrationsBlocked": "Account registrations are currently blocked by the server.",
+    "UnbanFail": "Failed to unban {00}. The user is not banned!",
+    "UnbanSuccess": "{00} has been unbanned!",
+    "UnknownErrorWhileSaving": "An unknown error occurred while saving the user.",
+    "UnknownServerErrorRetryLogin": "An unknown server error occurred, please try logging in again.",
+    "UnmuteFail": "Failed to unmute {00}. The user is not muted!",
+    "UnmuteSuccess": "{00} has been unmuted!"
+  },
+  "Bags": {
+    "BagInBag": "You cannot store a bag inside another bag!",
+    "BagInSelf": "You cannot store a bag in within itself!",
+    "DropNotEmpty": "You cannot drop a bag unless it's empty!",
+    "OnlySellEmpty": "Cannot sell bag unless it's empty!",
+    "OnlyTradeEmpty": "Cannot trade bag unless it's empty!",
+    "SlotOccupied": "That slot is occupied by another item!",
+    "WithdrawInvalid": "Invalid item selected to retreive!"
+  },
+  "Banks": {
+    "DepositInvalid": "Invalid item selected to deposit!",
+    "DepositSuccessNonStackable": "You have stored: {00}",
+    "DepositSuccessStackable": "You have stored: {00} {01}",
+    "InvalidSlotToSwap": "Invalid slots to swap!",
+    "NotEnoughInInventory": "There are not {00} of {01} in your inventory to deposit.",
+    "NotEnoughBankSpaceForItem": "There is not enough space in the bank to store {00} of {01}!",
+    "NotEnoughBankSpaceForOneOfItem": "There is not enough space in the bank to store a {00}!",
+    "WithdrawInvalid": "Invalid item selected to withdraw!",
+    "WithdrawSuccessNonStackable": "You have withdrawn: {00}",
+    "WithdrawSuccessStackable": "You have withdrawn: {00} {01}"
+  },
+  "Chat": {
+    "Admin": "[ADMIN] {00}: {01}",
+    "AdminCommand": "/admin",
+    "AllCommand": "/all",
+    "Announcement": "[ANNOUNCEMENT] {00}: {01}",
+    "AnnouncementCommand": "/announcement",
+    "Global": "[GLOBAL] {00}: {01}",
+    "GlobalCommand": "/global",
+    "Local": "{00}: {01}",
+    "LocalCommand": "/local",
+    "MessageCommand": "/message",
+    "Party": "[PARTY] {00}: {01}",
+    "PartyCommand": "/party",
+    "PrivateFrom": "[PM] From {00}: {01}",
+    "PrivateTo": "[PM] To {00}: {01}",
+    "PrivateMessageCommand": "/pm",
+    "ReplyCommand": "/reply",
+    "ReplyShortcutCommand": "/r",
+    "TooFast": "You are chatting too fast!"
+  },
+  "Classes": {
+    "LastClass": "Last Class",
+    "LastClassError": "Failed to delete class, you must have at least one class at all times!"
+  },
+  "Colors": {
+    "Presets": {
+      "0": "Black",
+      "1": "White",
+      "2": "Pink",
+      "3": "Blue",
+      "4": "Red",
+      "5": "Green",
+      "6": "Yellow",
+      "7": "Orange",
+      "8": "Purple",
+      "9": "Gray",
+      "10": "Cyan"
+    }
+  },
+  "Combat": {
+    "AddSymbol": "+",
+    "Blocked": "BLOCKED!",
+    "Channeling": "You are currently channeling another skill.",
+    "ChannelingNoAttack": "You are currently channeling a spell, you cannot attack.",
+    "Cooldown": "This skill is on cooldown.",
+    "Critical": "CRITICAL HIT!",
+    "Dash": "DASH!",
+    "DynamicRequirement": "You do not meet the requirements to cast the spell!",
+    "ImmuneToEffect": "IMMUNE!",
+    "LevelDown": "LEVEL DOWN!",
+    "LevelUp": "LEVEL UP!",
+    "LowHealth": "Not enough health.",
+    "LowMana": "Not enough mana.",
+    "Miss": "MISS!",
+    "RemoveSymbol": "-",
+    "ResourceRequirements": "You do not meet the requirements to harvest this resource!",
+    "Silenced": "You cannot cast this ability whilst silenced.",
+    "Sleep": "You cannot cast this ability whilst asleep",
+    "Snared": "You cannot cast this ability while snared.",
+    "SleepAttacking": "You are asleep and can't attack.",
+    "SleepBlocking": "You are asleep and can't block.",
+    "Status": {
+      "0": "NONE!",
+      "1": "SILENCED!",
+      "2": "STUNNED!",
+      "3": "SNARED!",
+      "4": "BLINDED!",
+      "5": "STEALTH!",
+      "6": "TRANSFORMED!",
+      "7": "CLEANSED!",
+      "8": "INVULNERABLE!",
+      "9": "SHIELD!",
+      "10": "SLEEP!",
+      "11": "ON HIT!",
+      "12": "TAUNT!"
+    },
+    "StunAttacking": "You are stunned and can't attack.",
+    "StunBlocking": "You are stunned and can't block.",
+    "Stunned": "You cannot cast this ability whilst stunned.",
+    "TargetOutOfRange": "Target is out of range!",
+    "ToolRequired": "You require a {00} to interact with this resource!",
+    "TryForgetBoundSpell": "You cannot forget this spell.",
+    "InvalidTarget": "Invalid target for this spell."
+  },
+  "Commandoutput": {
+    "AccountCount": " - {00} Accounts.",
+    "ActiveConnections": "Active connections: {00}",
+    "ApiAccessGranted": "{00} now has API access!",
+    "ApiAccessRevoked": "{00} has had their API access revoked!",
+    "ApiRoleGranted": "{00} now has the {01} api role!",
+    "ApiRoleNotFound": "Api role {00} not found!",
+    "ApiRoleNotGranted": "Failed to assign api role {00}, api access must be enabled for {01} first!",
+    "ApiRolePrerequisite": "API role {00} could not be granted! Depends on {01} role.",
+    "ApiRoleRevoked": "{00} has had their {01} api role revoked!",
+    "ApiRoles": "Api roles for {00}:",
+    "ApiRolesNotGranted": "No API roles have been granted.",
+    "CharacterCount": " - {00} Characters.",
+    "CpsLocked": "CPS Locked",
+    "CpsUnlocked": "CPS Unlocked",
+    "EventCount": " - {00} Events.",
+    "ExperimentalFeatureEnablement": "{00} is {01}.",
+    "GameTime": "Game time is now: {00}",
+    "HelpFooter": "Type in any command followed by {00} for parameters and usage information.",
+    "HelpHeader": "List of available commands:",
+    "ItemCount": " - {00} Items.",
+    "KillSuccess": "{00} has been killed!",
+    "ListAccount": "Account",
+    "ListCharacter": "Character",
+    "ListId": "ID",
+    "MapCount": " - {00} Maps.",
+    "MetricsDisabled": "Metrics collection disabled",
+    "MetricsEnabled": "Metrics collection enabled",
+    "NoClientsConnected": "No clients connected",
+    "NpcCount": " - {00} NPCs.",
+    "PowerChanged": "{00} has had their power updated!",
+    "ServerInfo": "Server has:",
+    "SpellCount": " - {00} Spells.",
+    "StrayConnections": "Stray connections: {00}",
+    "VariableChanged": "'{01}' set to {02} (was {03}) ({00})",
+    "VariableListEmpty": "There are no variables to display.",
+    "VariableNotFound": "Variable '{00}' not found",
+    "VariablePrint": "{00} {01} = {02}"
+  },
+  "Commands": {
+    "Announcement": {
+      "Help": "sends a global message to all players",
+      "Description": "Sends a global message to all users playing the game.",
+      "Name": "announcement"
+    },
+    "Api": {
+      "Help": "enables or disables api access for an account",
+      "Description": "Sets the api access (enabled/disabled) of a selected account. true is enabled, false is disabled",
+      "Name": "api"
+    },
+    "ApiGrant": {
+      "Help": "enables extra api access roles for a account. (Options: users.query, users.manage)",
+      "Description": "Grants extra api access roles for a user. (Options: users.query, users.manage)",
+      "Name": "apigrant"
+    },
+    "ApiRevoke": {
+      "Help": "revokes extra api access roles for a account. (Options: users.query, users.manage)",
+      "Description": "Revokes extra api access roles for a account. (Options: users.query, users.manage)",
+      "Name": "apirevoke"
+    },
+    "ApiRoles": {
+      "Help": "lists extra api access roles for an account (Options: users.query, users.manage)",
+      "Description": "Lists extra api access roles assigned to a user.",
+      "Name": "apiroles"
+    },
+    "Arguments": {
+      "AccessBoolean": {
+        "Description": "whether or not to grant/revoke access",
+        "Name": "access"
+      },
+      "AnnouncementMessage": {
+        "Description": "the message to send",
+        "Name": "message"
+      },
+      "ApiRole": {
+        "Description": "role to grant or revoke (users.query or users.manage)",
+        "Name": "role"
+      },
+      "CpsLock": "lock",
+      "CpsOperation": {
+        "Description": "one of the following: status, lock, unlock",
+        "Name": "operation"
+      },
+      "CpsStatus": "status",
+      "CpsUnlock": "unlock",
+      "DurationBan": {
+        "Description": "the duration to ban (in days)",
+        "Name": "duration"
+      },
+      "DurationMute": {
+        "Description": "the duration to mute (in days)",
+        "Name": "duration"
+      },
+      "EnablementBoolean": {
+        "Description": "whether or not this is enabled",
+        "Name": "enablement"
+      },
+      "Help": {
+        "ShortName": "h",
+        "Description": "shows this help message",
+        "Name": "help"
+      },
+      "IpBan": {
+        "Description": "if it is an IP ban (true/false)",
+        "Name": "ip-ban"
+      },
+      "IpMute": {
+        "Description": "if it is an IP mute (true/false)",
+        "Name": "ip-ban"
+      },
+      "MetricsDisable": "disable",
+      "MetricsOperation": {
+        "Description": "one of the following: disable, enable",
+        "Name": "operation"
+      },
+      "MetricsEnable": "enable",
+      "Page": {
+        "Description": "the page of items to query for",
+        "Name": "page"
+      },
+      "PageSize": {
+        "Description": "the number of items to display per page",
+        "Name": "page-size"
+      },
+      "PanicType": {
+        "Description": "which information dump to process (attack/stack)",
+        "Name": "type"
+      },
+      "Power": {
+        "Description": "the access level to assign",
+        "Name": "access"
+      },
+      "ReasonBan": {
+        "Description": "the reason for the ban",
+        "Name": "reason"
+      },
+      "ReasonMute": {
+        "Description": "the reason for the mute",
+        "Name": "reason"
+      },
+      "TargetApi": {
+        "Description": "the name of the acount to change the API access of",
+        "Name": "account-name"
+      },
+      "TargetBan": {
+        "Description": "the name of the player to ban",
+        "Name": "player-name"
+      },
+      "TargetExperimentalFeature": {
+        "Description": "the Guid or name of the experimental feature to configure",
+        "Name": "experimental-feature-name-or-id"
+      },
+      "TargetKick": {
+        "Description": "the name of the player to kick",
+        "Name": "player-name"
+      },
+      "TargetKill": {
+        "Description": "the name of the player to kill",
+        "Name": "player-name"
+      },
+      "TargetMute": {
+        "Description": "the name of the player to mute",
+        "Name": "player-name"
+      },
+      "TargetPower": {
+        "Description": "the name of the player to change the access of",
+        "Name": "player-name"
+      },
+      "TargetPowerAccount": {
+        "Description": "the name of the acount to change the access of",
+        "Name": "account-name"
+      },
+      "TargetUnban": {
+        "Description": "the name of the player to unban",
+        "Name": "player-name"
+      },
+      "TargetUnmute": {
+        "Description": "the name of the player to unmute",
+        "Name": "player-name"
+      },
+      "VariableId": {
+        "Description": "the id of the server variable to set",
+        "Name": "id"
+      },
+      "VariableValue": {
+        "Description": "the value to set the server variable to",
+        "Name": "value"
+      }
+    },
+    "Ban": {
+      "Help": "bans a player from the server",
+      "Description": "Bans a player from the server.",
+      "Name": "ban"
+    },
+    "banuser": "console",
+    "commandinfo": "/?",
+    "Cps": {
+      "Help": "prints the current server cps",
+      "Description": "Prints the current CPS. The status flag tells if the server loop is locked or unlocked. The lock flag locks the cps while the unlock flag unlocks it.",
+      "Name": "cps"
+    },
+    "Exit": {
+      "Help": "closes the server",
+      "Description": "Closes down the server.",
+      "Name": "exit"
+    },
+    "exited": "Main server shutdown completed. If your server is stuck you may safely kill it.",
+    "exiting": "Server is now closing. Please wait while your game and player data is saved!",
+    "ExperimentalFlagNotFound": "Experimental flag '{00}' was not found!",
+    "FlagInfo": "(flag)",
+    "Help": {
+      "Help": "displays list of available commands",
+      "Description": "help",
+      "Name": "help"
+    },
+    "invalid": "Invalid /command.",
+    "Kick": {
+      "Help": "kicks a player from the server",
+      "Description": "Kicks a player from the server.",
+      "Name": "kick"
+    },
+    "SetVariable": {
+      "Help": "sets a variable by id; e.g. 'setvar <id> true'",
+      "Description": "sets a server variable by id to a value",
+      "Name": "setvar"
+    },
+    "GetVariable": {
+      "Help": "gets a variable by id",
+      "Description": "gets a server variable by id",
+      "Name": "getvar"
+    },
+    "ListVariables": {
+      "Help": "queries for server variables by page/page size; e.g. 'listvars 1 10'",
+      "Description": "queries for server variables by page/page size",
+      "Name": "listvars"
+    },
+    "Kill": {
+      "Help": "kills a player on the server",
+      "Description": "Kills a player on the server.",
+      "Name": "kill"
+    },
+    "madeprivate": "The server has now been made private and can only be accessed by admins. To change this use the makepublic command or edit the adminonly field in config.json",
+    "madepublic": "The server has now been made public and can be accessed by all players. To change this use the makepublic command or edit the adminonly field in config.json",
+    "MakePrivate": {
+      "Help": "Makes the server private and can only be accessed by admins.",
+      "Description": "Makes the server private and can only be accessed by admins.",
+      "Name": "makeprivate"
+    },
+    "MakePublic": {
+      "Help": "Makes the server public to all players.",
+      "Description": "Makes the server public to all players.",
+      "Name": "makepublic"
+    },
+    "Metrics": {
+      "Help": "enables or disables metrics collection",
+      "Description": "Enables or disables metrics collection.",
+      "Name": "metrics"
+    },
+    "Migrate": {
+      "Help": "walks you through migrating your player or game database between sqlite and mysql",
+      "Description": "Walks you through migrating your player or game database between sqlite and mysql.",
+      "Name": "migrate"
+    },
+    "Mute": {
+      "Help": "mutes a player preventing them from talking",
+      "Description": "mutes a player preventing them from talking.",
+      "Name": "mute"
+    },
+    "muteuser": "console",
+    "NetDebug": {
+      "Name": "netdebug"
+    },
+    "OnlineList": {
+      "Help": "shows all players online",
+      "Name": "onlinelist"
+    },
+    "Panic": {
+      "Help": "collects and dumps information -- THIS WILL CRASH YOUR SERVER",
+      "Description": "Collects and dumps information -- THIS WILL CRASH YOUR SERVER",
+      "Name": "panic"
+    },
+    "Parsing": {
+      "Errors": {
+        "BadArgumentFormat": "The argument '{00}' is not a valid short or long-form argument.",
+        "CommandNotFound": "The command '{00}' is not recoginized. Enter '{01}' for a list of commands.",
+        "DuplicateNamedArgument": "The argument '{00}' was specified more than once.",
+        "FlagArgumentsIgnoreValue": "'{00}' is a flag argument and will ignore provided values.",
+        "GenericError": "An error occurred while trying to parse the command.",
+        "IllegalArgumentFormat": "The argument '{00}' matches both the short and long-form argument formats (e.g. '{01}h' and '{02}help').",
+        "InvalidArgumentValue": "The value '{00}' is not valid for the argument '{01}'.",
+        "InvalidArgumentValueWithType": "The value '{00}' is not valid for the argument '{01}' (expected type '{02}').",
+        "MissingArguments": "Missing one or more arguments: {00}",
+        "MissingArgumentsDelimeter": ", ",
+        "MissingNamedArgument": "The argument '{00}{01}' is required for the command '{02}' but is missing.",
+        "MissingPositionalArgument": "The argument '{00}' is required for the command '{01}' but is missing.",
+        "NoInput": "No input was provided. If this is not the case, please report this error.",
+        "UnhandledNamedArgument": "The argument '{00}' is not accepted for the command '{01}'.",
+        "UnhandledPositionalArgument": "The argument '{00}' in position {01} is not accepted for the command '{02}'."
+      },
+      "Formatting": {
+        "Optional": "[{00}]",
+        "Type": ":{00}",
+        "Usage": "Usage: {00}"
+      },
+      "TypeNames": {
+        "Boolean": "bool",
+        "Byte": "byte",
+        "Char": "char",
+        "Decimal": "decimal",
+        "Double": "double",
+        "Int16": "short",
+        "Int32": "int",
+        "Int64": "long",
+        "Object": "object",
+        "SByte": "sbyte",
+        "Single": "float",
+        "String": "string",
+        "UInt16": "ushort",
+        "UInt32": "uint",
+        "UInt64": "ulong"
+      },
+      "TypeUnknown": "unknown",
+      "ValueFalse": "false",
+      "ValueTrue": "true"
+    },
+    "Power": {
+      "Help": "sets the administrative access of a user",
+      "Description": "Sets the power or access of a selected account. Power 0 is regular user. Power 1 is in-game moderator. Power 2 is owner/designer and allows editor access.",
+      "Name": "power"
+    },
+    "PowerAccount": {
+      "Help": "sets the administrative access of an account",
+      "Description": "Sets the power or access of a selected account. Power 0 is regular user. Power 1 is in-game moderator. Power 2 is owner/designer and allows editor access.",
+      "Name": "poweracc"
+    },
+    "RequiredInfo": "(required)",
+    "Unban": {
+      "Help": "unbans a player from the server",
+      "Description": "Unbans a player from the server.",
+      "Name": "unban"
+    },
+    "Unmute": {
+      "Help": "unmutes a player allowing them to talk",
+      "Description": "unmutes a player allowing them to talk.",
+      "Name": "unmute"
+    }
+  },
+  "Crafting": {
+    "AlreadyCrafting": "You are already crafting an item!",
+    "CraftFailure": "The attempt to craft the item {00} failed!",
+    "CraftFailureLostItems": "The attempt to craft the item {00} failed, and you lost the materials!",
+    "Crafted": "You successfully crafted {00}!",
+    "InJournalMode": "You cannot craft items from your crafting journal!",
+    "NoSpace": "You do not have enough inventory space to craft {00}!",
+    "RequirementsNotMet": "You do not meet the requirements to craft this item!"
+  },
+  "Database": {
+    "DatabaseTypes": {
+      "SQLite": "SQLite",
+      "MySQL": "MySql"
+    },
+    "default": "Default",
+    "MigratingAutomatically": "The --migrate-automatically flag was passed to the server on startup, so the user will not be prompted.",
+    "NoClasses": "No classes found! - Creating a default class!",
+    "NoMaps": "No maps found! - Creating an empty map!",
+    "UpgradeBackup": "Please make a backup of your game and player databases, and then type '{00}' to continue or '{01}' to quit.",
+    "UpgradeExit": "EXIT",
+    "UpgradeReady": "READY",
+    "UpgradeRequired": "Your databases need to be upgraded! This process could corrupt your game data if any errors are encountered."
+  },
+  "Errors": {
+    "ErrorFloodBurst": "[Flood]: {00} Burst Packets [User: {01} | Player: {02} | IP {03}]",
+    "ErrorFloodSize": "[Flood]: Packet Size: {00} [User: {01} | Player: {02} | IP {03}]",
+    "ErrorLoadingConfiguration": "Failed to load server options! Press any key to shut down.",
+    "ErrorLoadingStrings": "Failed to load strings! Press any key to shut down.",
+    "ErrorLogged": "An error was logged into errors.log",
+    "ErrorServerCrash": "The Intersect server has encountered an error and must close. Error information can be found in resources/logs/errors.log. Press any key to exit.",
+    "ErrorServerCrashNoHalt": "The Intersect server has encountered an error and must close. Error information can be found in resources/logs/errors.log.",
+    "ErrorTimeout": "Too many failed requests. Please wait and try again!",
+    "UnknownErrorTryAgain": "An unknown error occurred, please try again."
+  },
+  "Events": {
+    "CommandParameter": "\\param",
+    "EventNameCommand": "\\en",
+    "EventParameter": "\\evtparam",
+    "EventParameters": "\\evtparams",
+    "GlobalSwitch": "\\gs",
+    "GlobalVariable": "\\gv",
+    "GuildVariable": "\\guildvar",
+    "MilitaryHour": "\\24hour",
+    "OnlineCountCommand": "\\onlinecount",
+    "OnlineListCommand": "\\onlinelist",
+    "PeriodEvening": "PM",
+    "PeriodMorning": "AM",
+    "PlayerGuildCommand": "\\pg",
+    "PlayerNameCommand": "\\pn",
+    "PlayerSwitch": "\\ps",
+    "PlayerVariable": "\\pv",
+    "TimeHour": "\\hour",
+    "TimeMinute": "\\minute",
+    "TimePeriod": "\\period",
+    "TimeSecond": "\\second",
+    "UserVariable": "\\uservar",
+    "WatchdogKill": "Event killed due to commands processed in a single frame surpassing Event Watchdog Threshhold.  (Map: {00}  Event: {01})",
+    "WatchdogKillCommon": "Common event killed due to commands processed in a single frame surpassing the Event Watchdog Threshhold.  (Event {00})"
+  },
+  "Formulas": {
+    "Missing": "Formulas.json missing. Generated default formulas file."
+  },
+  "Friends": {
+    "Accept": "{00} has accepted your friend request!",
+    "AlreadyFriends": "You are already friends with {00}.",
+    "Busy": "{00} is busy. Please try again later!",
+    "FriendLoggedIn": "{00} has logged in.",
+    "FriendNotification": "You are now friends with {00}!",
+    "FriendRemoved": "Friend has been removed.",
+    "FriendRequestSent": "Friend request has been sent."
+  },
+  "General": {
+    "DisabledLowerCase": "disabled",
+    "EnabledLowerCase": "enabled",
+    "Notice": "Notice",
+    "NoticeError": "Error Notice",
+    "UnknownErrorPleaseTryAgain": "An unknown error occurred, please try again."
+  },
+  "Intro": {
+    "ConsoleActive": "Type exit to shutdown the server, or help for a list of commands.",
+    "Loading": "Loading, please wait.",
+    "ServerStarted": "Server started. Using UDP Port #{00}.",
+    "Support": "For help, support, and updates visit: https://www.ascensiongamedev.com",
+    "Tagline": "                          free 2d orpg engine",
+    "Version": "Version {00}"
+  },
+  "Items": {
+    "Bound": "You cannot drop this item.",
+    "CannotUse": "You cannot use this item!",
+    "Cooldown": "You must wait before using this item again!",
+    "DynamicRequirement": "You do not meet the requirements to use this item!",
+    "Equipped": "You cannot drop equipped items.",
+    "NoBag": "You cannot store this item in a bag.",
+    "NoBank": "You cannot store this item in a bank.",
+    "NoSpaceForItem": "There is no space left for that item!",
+    "NotEnough": "Not enough {00}s!",
+    "NotImplemented": "Use of this item type is not yet implemented.",
+    "Sleep": "You cannot use this item whilst asleep.",
+    "Stunned": "You cannot use this item whilst stunned."
+  },
+  "Mapping": {
+    "LastMap": "Last Map",
+    "LastMapError": "Failed to delete map, you must have at least one map at all times!",
+    "LinkFailure": "Map Link Failure",
+    "LinkFailureError": "Failed to link map {00} to map {01}. If this merge were to happen, maps {02} and {03} would occupy the same space in the world.",
+    "NewFolder": "New Folder"
+  },
+  "Migration": {
+    "AlreadyUsingProvider": "Migration Error: The {00} database is already using {01}!",
+    "Cancel": "   Press any other key to cancel migration.",
+    "ConfirmCharacter": "y",
+    "DatabaseFileAlreadyExists": "{00} already exists. Overwrite? (y/n)",
+    "DefaultDatabase": "intersect_{00}_{01}",
+    "DefaultHost": "localhost",
+    "DefaultPortMySql": "3306",
+    "DefaultUsername": "root",
+    "EnterConnectionStringParameters": "Please enter your connection string parameters:",
+    "GameDatabaseName": "Game",
+    "LoggingDatabaseName": "Logging",
+    "MigratingDbSet": "Migrating entities in {00}...",
+    "MigrationCanceled": "Migration Canceled",
+    "MigrationComplete": "Migration complete! Press any key to exit.",
+    "MySqlConnecting": "Please wait, attempting to connect to database...",
+    "MySqlConnectionError": "Error opening db connection! Error: {00}",
+    "MySqlNotEmpty": "Database must be empty before migration! Please delete any tables before proceeding! Migration Cancelled.",
+    "MySqlTryAgain": "Would you like to try entering your connection info again? (y/n)  ",
+    "PlayerDatabaseName": "Player",
+    "PromptDatabase": "Database ({00}):",
+    "PromptHost": "Host ({00}):",
+    "PromptPassword": "Password (empty):",
+    "PromptPort": "Port ({00}):",
+    "PromptUsername": "User ({00}):",
+    "SelectContext": "Which database would you like to migrate:",
+    "SelectDatabase": "[{00}] {01} (currently using {02}) {03}",
+    "SelectDatabaseType": "[{00}] {01}",
+    "SelectProvider": "Select which engine to migrate the {00} database to:",
+    "SqliteRecommended": "SQLite is strongly recommended!",
+    "StartingMigration": "Starting migration, please wait! (This could take several minutes depending on the size of your game)",
+    "StoppingServer": "Please wait, stopping server, and saving current database...",
+    "TryAgainCharacter": "y"
+  },
+  "NetDebug": {
+    "Hastebin": "Network Debug information uploaded to {00} (copied to clipboard) share this link with AGD when requesting for help getting your game online!",
+    "PleaseWait": "Please wait while network diagnostics run....",
+    "SavedToFile": "Network Debug information saved to netdebug.txt! Upload that file and share it with AGD when requesting for help getting your game online!"
+  },
+  "Networking": {
+    "ServerFull": "The server is currently full, please try again later."
+  },
+  "NotificationsNamespace": {
+    "Copyright": "Copyright (C) 2019 Ascension Game Dev, All Rights Reserved",
+    "Product": "Intersect Game Engine"
+  },
+  "Parties": {
+    "AlreadyDenied": "Your party invitation has already been rejected!",
+    "Busy": "{00} is busy. Please try again later!",
+    "CannotCreateInstance": "Only the party leader can create a shared instance.",
+    "Declined": "{00} has declined your party invitation!",
+    "Disbanded": "The party has been disbanded.",
+    "InInstance": "You cannot invite someone to a party while in an instance!",
+    "InstanceFailed": "Your party has failed the instance...",
+    "InstanceInProgress": "The party has not yet completed their instance.",
+    "InstanceInUse": "Cannot create a new instance - party members are still in the old one.",
+    "InstanceLivesRemaining": "Your party has {00} lives remaining in this instance!",
+    "InParty": "{00} is already in a party!",
+    "Joined": "{00} has joined the party!",
+    "Kicked": "You have been kicked from the party!",
+    "LeaderInviteOnly": "Only the party leader can send invitations to your party.",
+    "Left": "You have left the party.",
+    "LimitReached": "You have reached the maximum limit of party members. Kick another member before adding more.",
+    "MemberKicked": "{00} has been kicked from the party!",
+    "MemberLeft": "{00} has left the party!",
+    "NoMoreLivesRemaining": "Your party has no more lives remaining! You will respawn outside the instance on your next death.",
+    "NotInParty": "You are not in a party.",
+    "OutOfRange": "Target is out of range or offline.",
+    "WrongInstance": "Your party is currently doing a different instance."
+  },
+  "PasswordResetNotificationNamespace": {
+    "Subject": "Intersect Game Engine - Password Reset Code"
+  },
+  "Player": {
+    "Admin": "{00} has been given administrative powers!",
+    "AdminJoined": "You are an administrator! Press Insert at any time to access the administration menu or F2 for debug information.",
+    "AdminSetPower": "Only admins can set power!",
+    "BeenWarpedTo": "You have been warped to {00}.",
+    "CannotAlterOwnPower": "You cannot alter your own power!",
+    "CannotWarpToYourself": "You cannot warp to yourself.",
+    "Deadmin": "{00} has had their administrative powers revoked!",
+    "HasWarpedTo": "{00} has been warped to you.",
+    "InstanceUpdate": "Your instance ID has changed from {00} to {01}.",
+    "Kicked": "{00} has been kicked by {01}!",
+    "Killed": "{00} has been killed by {01}!",
+    "Left": "{00} has left {01}.",
+    "LevelLost": "You have lost a level! You are now level {00}!",
+    "LevelUp": "You have leveled up! You are now level {00}!",
+    "Moderator": "{00} has been given moderation powers!",
+    "ModeratorJoined": "You are a moderator! Press Insert at any time to access the administration menu or F2 for debug information.",
+    "Offline": "User not online!",
+    "OverworldReturnAdmin": "You have returned {00} to the overworld.",
+    "OverworldReturned": "You have been returned to the overworld.",
+    "PlayerNotFound": "The player '{00}' was not found!",
+    "PowerChanged": "Your power has been modified!",
+    "ServerKicked": "{00} has been kicked by the server!",
+    "ServerKilled": "{00} has been killed by the server!",
+    "LearnedSpell": "You've learned the {00} spell!",
+    "ForgotSpell": "You've forgotten the {00} spell!",
+    "StatPoints": "You have {00} stat points available to be spent!",
+    "WarpedTo": "Warped to {00}.",
+    "WarpedToYou": "{00} warped to you."
+  },
+  "Portchecking": {
+    "AntivirusCheck": "2. Antivirus programs might also be blocking connections. You may need to add Intersect Server.exe to your antivirus exclusions.",
+    "CheckFirewalls": "   1. Firewalls might be blocking connections to your server. Check firewalls on your system. (i.e. iptables, FirewallD, Windows Firewall)",
+    "CheckRouterUpnp": "It appears that UPnP Failed. Your might need to enable UPnP on your router or manually port forward to allow connections to your server.",
+    "ConnectionInfo": "Connection Information:",
+    "DebuggingSteps": "Debugging Steps (To allow public access):",
+    "DocumentationUrl": "https://docs.freemmorpgmaker.com/en-US/deploy/forwarding/",
+    "PortCheckerAndUpnpDisabled": "The port checker service and UPnP have both been disabled. Please verify the server status manually with a client.",
+    "PortCheckerResults": {
+      "Unknown": "This server is possibly inaccessible from the outside world. Try to connect with the client to verify.",
+      "Open": "This server is accessible from the outside world. Properly configured clients can connect.",
+      "PossiblyOpen": "This server is possibly accessible from the outside world, but the AscensionGameDev port checker server gave an inconclusive response.",
+      "IntersectResponseNoPlayerCount": "This server is not reporting a player count and may not be accessible. Please see the Port Forwarding documentation for more information: {0}",
+      "IntersectResponseInvalidPlayerCount": "This server is reporting an invalid player count and may not be accessible. Please see the Port Forwarding documentation for more information: {0}",
+      "InvalidPortCheckerRequest": "The AscensionGameDev port checker server is down and this server may or may not be accessible from the outside world. Try to connect with the client to verify.",
+      "PortCheckerServerError": "The AscensionGameDev port checker server encountered an error and this server may or may not be accessible from the outside world. Try to connect with the client to verify.",
+      "PortCheckerServerDown": "The AscensionGameDev port checker server is down and this server may or may not be accessible from the outside world. Try to connect with the client to verify.",
+      "PortCheckerServerUnexpectedResponse": "The AscensionGameDev port checker server is down and this server may or may not be accessible from the outside world. Try to connect with the client to verify.",
+      "Inaccessible": "This server is not accessible from the outside world. Please see the Port Forwarding documentation for more information: {0}"
+    },
+    "PortNotOpenTryingUpnp": "Port {0} is not open, trying UPnP...",
+    "PortNotOpenUpnpDisabled": "Port {0} is not open, but UPnP is disabled. Check your router port forwarding and computer firewall configurations.",
+    "ProbablyFirewall": "UPnP supposedly succeeded but the server is not accessible on port {0}. Check the firewall of the machine this server is running on.",
+    "PublicIp": "   Public IP: {00}",
+    "PublicPort": "   Public Port: {00}",
+    "RouterUpnpFailed": "UPnP failed. Please verify the server status manually using a client.",
+    "TryingUpnp": "Trying to open the port using UPnP...",
+    "UpnpSucceededPortCheckerDisabled": "UPnP succeeded but the port checker is disabled. Please verify the server status manually using a client.",
+    "WithinRestrictedNetwork": "3. If you are on a college campus or within a business network, you likely do not have permission to open ports or host games. In this case, you should explore external hosting options!"
+  },
+  "Quests": {
+    "Abandoned": "Quest Abandoned: {00}!",
+    "Completed": "Quest: {00} completed!",
+    "Declined": "Quest Declined: {00}!",
+    "ItemTask": "{00}  updated! {01}/{02} {03}(s) gathered!",
+    "NpcTask": "{00}  updated! {01}/{02} {03}(s) slain!",
+    "Started": "Quest Started: {00}!",
+    "TaskCompleted": "Task Completed!",
+    "Updated": "Quest: {00} updated!"
+  },
+  "Regex": {
+    "Email": "^(([\\w-]+\\.)+[\\w-]+|([a-zA-Z]{1}|[\\w-]{2,}))@((([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])\\.([0-1]?[0-9]{1,2}|25[0-5]|2[0-4][0-9])){1}|([a-zA-Z]+[\\w-]+\\.)+[a-zA-Z]{2,4})$",
+    "GuildName": "^[a-zA-Z0-9 ]{3,20}$",
+    "Username": "^[a-zA-Z0-9]{2,20}$"
+  },
+  "Shops": {
+    "Bound": "This item is bound to you and cannot be sold!",
+    "CannotAfford": "Transaction failed due to insufficient funds.",
+    "DoesNotAccept": "This shop does not accept that item!",
+    "FailedToRemoveItem": "Failed to remove items from slot {00} for player {01}. Quantity to remove: {02} at {03}",
+    "InventoryFull": "You do not have space to purchase that item!",
+    "SuccessfullyRemovedItem": "Successfully removed {00} items from slot {01} for player {02} at {03}",
+    "TransactionFailed": "Transaction failed!"
+  },
+  "Trading": {
+    "Accepted": "The trade was successful!",
+    "AlreadyDenied": "Your trade request has already been denied!",
+    "Bound": "This item is bound to you and cannot be traded!",
+    "Busy": "{00} is busy. Please try again later!",
+    "Declined": "The trade was declined!",
+    "InvalidOffer": "Invalid item selected to offer!",
+    "InvalidRevoke": "Invalid item selected to revoke!",
+    "ItemsDropped": "Out of inventory space. Some of your items have been dropped on the ground!",
+    "OfferAccepted": "{00} has accepted your offer. Please confirm the trade.",
+    "OutOfRange": "Trade target is out of range or offline.",
+    "RevokeNotAllowed": "You can't revoke this item, {00} already accepted the trade!"
+  },
+  "Upnp": {
+    "FailedForwardingTcp": "Failed to automatically port forward tcp port {00} using UPnP. (UPnP possibly disabled in your router settings, or this port might already be forwarded!)",
+    "FailedForwardingUdp": "Failed to automatically port forward udp port {00} using UPnP. (UPnP possibly disabled in your router settings, or this port might already be forwarded!)",
+    "ForwardedTcp": "Successfully auto port forwarded tcp port {00} using UPnP.",
+    "ForwardedUdp": "Successfully auto port forwarded udp port {00} using UPnP.",
+    "InitializationFailed": "UPnP Service Initialization Failed. You might not have a router, or UPnP on your router might be disabled.",
+    "Initialized": "UPnP Service Initialization Succeeded"
+  },
+  "Guilds": {
+    "AlreadyInGuild": "You are already in a guild!",
+    "Demoted": "{00} has been demoted to {01}!",
+    "DisbandGuild": "{00} has been disbanded!",
+    "ErrorWhileAcceptingInvite": "An error occurred while saving your guild membership, please try again.",
+    "GuildChat": "[{00}] {01}: {02}",
+    "GuildCommand": "/guild",
+    "GuildLeaderLeave": "A Guildmaster can not leave their own guild, please transfer ownership rights first!",
+    "GuildNameInUse": "Your chosen guild name is already in use!",
+    "InviteAlreadyInGuild": "The player you're trying to invite is already in a guild or has a pending invite.",
+    "InviteDeclined": "You have declined the request to join {00}.",
+    "InviteDeclinedMissingGuild": "You have declined the request to join the guild.",
+    "InviteDeclinedResponse": "{00} has declined your request for them to join {01}.",
+    "InviteDeclinedResponseMissingGuild": "{00} has declined your request for them to join the guild.",
+    "InviteNotOnline": "The player you're trying to invite is either not online or does not exist.",
+    "InviteSent": "You've invited {00} to join {01}!",
+    "NoLongerAllowedInInstance": "You are no longer in the guild whose instance you were logged into. You have been warped back to the overworld.",
+    "NoSuchPlayer": "There is no such player in this guild.",
+    "NotAllowed": "You do not have the permission to do this.",
+    "NotAllowedDeposit": "You do not have permission to deposit items into {00}'s guild bank!",
+    "NotAllowedInInstance": "You must be in a guild to warp to a guild instance.",
+    "NotAllowedSwap": "You do not have permission to swap items around within {00}'s guild bank!",
+    "NotAllowedWithdraw": "You do not have permission to withdraw from {00}'s guild bank!",
+    "NotInGuild": "You are not in a guild.",
+    "NotReceivedInvite": "You've not received any guild invites yet.",
+    "Promoted": "{00} has been promoted to {01}!",
+    "RankLimit": "Failed to join {00} because their guild is full!",
+    "RankLimitResponse": "This guild has already hit it's member limit for the rank of {00}. Promote or demote other members in order to make room for {01}.",
+    "Transferred": "Guild ownership of {00} has been transferred from {01} to {02}!",
+    "VariableInvalid": "Invalid guild name!",
+    "VariableNotString": "The given guild name does not contain any text.",
+    "Welcome": "Welcome to {00}!",
+    "DeleteGuildLeader": "You can not delete a character that is a guild {00}, please disband the guild or transfer ownership before trying again."
+  }
+}

@@ -1,0 +1,177 @@
+﻿{
+  "Alerts": {
+    "Accepted": "255,0,255,0",
+    "AdminJoined": "255,255,255,0",
+    "Declined": "255,255,0,0",
+    "Error": "255,255,0,0",
+    "Info": "255,255,255,255",
+    "ModJoined": "255,0,255,255",
+    "RequestSent": "255,255,255,0",
+    "Success": "255,0,255,0"
+  },
+  "Chat": {
+    "AdminChat": "255,0,255,255",
+    "AdminGlobalChat": "255,255,255,0",
+    "AdminLocalChat": "255,255,255,0",
+    "AnnouncementChat": "255,255,255,0",
+    "ChatBubbleText": "255,0,0,0",
+    "ChatBubbleTextOutline": "0,0,0,0",
+    "GlobalChat": "255,220,220,220",
+    "GlobalMsg": "255,220,220,220",
+    "LocalChat": "255,240,240,240",
+    "ModGlobalChat": "255,0,255,255",
+    "ModLocalChat": "255,0,255,255",
+    "PartyChat": "255,0,255,0",
+    "PlayerMsg": "255,220,220,220",
+    "PrivateChatFrom": "255,255,0,255",
+    "PrivateChatTo": "255,190,0,190",
+    "ProximityMsg": "255,220,220,220",
+    "GuildChat": "255,255,165,0"
+  },
+  "Combat": {
+    "AddMana": "255,0,0,255",
+    "Blocked": "255,0,0,255",
+    "Cleanse": "0,255,0,0",
+    "Critical": "255,255,255,0",
+    "Dash": "255,0,0,255",
+    "Heal": "255,0,255,0",
+    "Invulnerable": "255,255,0,0",
+    "LevelUp": "255,0,255,255",
+    "LevelLost": "255,255,0,0",
+    "MagicDamage": "255,255,0,255",
+    "Missed": "255,255,255,255",
+    "NoAmmo": "255,255,0,0",
+    "NoTarget": "255,255,0,0",
+    "PhysicalDamage": "255,255,0,0",
+    "RemoveMana": "255,255,127,80",
+    "StatPoints": "255,0,255,255",
+    "Status": "255,255,255,0",
+    "TrueDamage": "255,255,255,255"
+  },
+  "Items": {
+    "Bound": "255,255,0,0",
+    "ConsumeExp": "255,255,255,255",
+    "ConsumeHp": "255,0,255,0",
+    "ConsumeMp": "255,0,0,255",
+    "ConsumePoison": "255,255,0,0",
+    "Rarities": {
+      "0": "255,255,255,255",
+      "1": "255,128,128,128",
+      "2": "255,255,0,0",
+      "3": "255,0,0,255",
+      "4": "255,0,255,0",
+      "5": "255,255,255,0"
+    },
+    "MapRarities": {
+      "0": {
+        "Name": "255,255,255,255",
+        "Outline": "255,0,0,0",
+        "Background": "100,0,0,0"
+      },
+      "1": {
+        "Name": "255,128,128,128",
+        "Outline": "255,0,0,0",
+        "Background": "100,0,0,0"
+      },
+      "2": {
+        "Name": "255,255,0,0",
+        "Outline": "255,0,0,0",
+        "Background": "100,0,0,0"
+      },
+      "3": {
+        "Name": "255,0,0,255",
+        "Outline": "255,0,0,0",
+        "Background": "100,0,0,0"
+      },
+      "4": {
+        "Name": "255,128,128,128",
+        "Outline": "255,0,0,0",
+        "Background": "100,0,0,0"
+      },
+      "5": {
+        "Name": "255,255,255,0",
+        "Outline": "255,0,0,0",
+        "Background": "100,0,0,0"
+      }
+    }
+  },
+  "Names": {
+    "Events": {
+      "Name": "255,255,255,255",
+      "Outline": "255,0,0,0",
+      "Background": "180,0,0,0"
+    },
+    "Npcs": {
+      "Neutral": {
+        "Name": "255,100,230,100",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Guard": {
+        "Name": "255,240,142,105",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "AttackWhenAttacked": {
+        "Name": "255,255,255,255",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "AttackOnSight": {
+        "Name": "255,255,200,0",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Aggressive": {
+        "Name": "255,255,40,0",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      }
+    },
+    "Players": {
+      "Normal": {
+        "Name": "255,255,255,255",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Party": {
+        "Name": "255,70,192,219",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Guild": {
+        "Name": "255,5,179,26",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Hostile": {
+        "Name": "255,255,81,0",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Moderator": {
+        "Name": "255,0,255,255",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      },
+      "Admin": {
+        "Name": "255,255,255,0",
+        "Outline": "255,0,0,0",
+        "Background": "180,0,0,0"
+      }
+    }
+  },
+  "QuestAlert": {
+    "Abandoned": "255,255,0,0",
+    "Completed": "255,0,255,0",
+    "Declined": "255,255,0,0",
+    "Started": "255,0,255,255",
+    "TaskUpdated": "255,0,255,255"
+  },
+  "QuestWindow": {
+    "Completed": "255,0,255,0",
+    "InProgress": "255,255,255,0",
+    "NotStarted": "255,255,0,0",
+    "QuestDesc": "255,255,255,255"
+  }
+}

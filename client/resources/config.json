@@ -1,0 +1,49 @@
+﻿{
+  "Host": "localhost",
+  "Port": 5400,
+  "GameFont": "sourcesansproblack",
+  "EntityNameFont": "sourcesansproblack",
+  "ChatBubbleFont": "sourcesansproblack",
+  "ActionMsgFont": "sourcesansproblack",
+  "UIFont": "sourcesanspro",
+  "ChatLines": 100,
+  "MenuMusic": "",
+  "MenuBackground": [
+    "background.png"
+  ],
+  "MenuBackgroundDisplayMode": "Default",
+  "MenuBackgroundFrameInterval": 50,
+  "IntroImages": [],
+  "UpdateUrl": "",
+  "MouseCursor": "",
+  "MusicFadeTimer": 1500,
+  "FadeDurationMs": 3000.0,
+  "EnableContextMenus": true,
+  "EnableZebraStripedRows": true,
+  "UiSkin": "Intersect2021",
+  "EntityBarDirections": [
+    "StartToEnd",
+    "StartToEnd",
+    "StartToEnd"
+  ],
+  "TypewriterEnabled": true,
+  "TypewriterFullStopCharacters": [
+    ".",
+    "!",
+    "?",
+    ":"
+  ],
+  "TypewriterFullStopDelay": 400,
+  "TypewriterPartDelay": 6,
+  "TypewriterPauseCharacters": [
+    ",",
+    ";",
+    "-"
+  ],
+  "TypewriterPauseDelay": 80,
+  "TypewriterResponseDelay": 600,
+  "TypewriterSoundFrequency": 5,
+  "TypewriterSounds": [
+    "octave-beep-tapped.wav"
+  ]
+}
