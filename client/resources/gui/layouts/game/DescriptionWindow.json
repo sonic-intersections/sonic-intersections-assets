@@ -16,7 +16,7 @@
   "HideToolTip": false,
   "ToolTipBackground": null,
   "ToolTipFont": null,
-  "ToolTipTextColor": "",
+  "ToolTipTextColor": "255,255,255,255",
   "Texture": null,
   "HoverSound": null,
   "LeftMouseClickSound": null,
