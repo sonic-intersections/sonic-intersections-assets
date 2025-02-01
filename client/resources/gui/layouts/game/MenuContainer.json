@@ -16,7 +16,7 @@
   "HideToolTip": false,
   "ToolTipBackground": null,
   "ToolTipFont": null,
-  "ToolTipTextColor": "",
+  "ToolTipTextColor": "255,255,255,255",
   "Texture": "gamemenu.png",
   "HoverSound": null,
   "LeftMouseClickSound": null,
@@ -40,7 +40,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -82,7 +82,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -104,7 +105,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -146,7 +147,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -168,7 +170,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -210,7 +212,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -232,7 +235,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -274,7 +277,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -296,7 +300,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -338,7 +342,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -360,7 +365,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -402,7 +407,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -424,7 +430,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -466,7 +472,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     },
@@ -488,7 +495,7 @@
       "HideToolTip": false,
       "ToolTipBackground": null,
       "ToolTipFont": null,
-      "ToolTipTextColor": "",
+      "ToolTipTextColor": "255,255,255,255",
       "Texture": "menuitem.png",
       "HoverSound": null,
       "LeftMouseClickSound": null,
@@ -530,7 +537,8 @@
           "HoverSound": "octave-tap-resonant.wav",
           "MouseUpSound": "",
           "MouseDownSound": "octave-tap-warm.wav",
-          "ClickSound": ""
+          "ClickSound": "",
+          "Children": {}
         }
       }
     }

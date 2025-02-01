@@ -58,7 +58,22 @@
     "upperplay": "Play Upper Animation",
     "upperplayback": "Playback",
     "upperstop": "Stop Upper Animation",
-    "upperverticalframes": "Graphic Vertical Frames:"
+    "upperverticalframes": "Graphic Vertical Frames:",
+    "extraoptions": "Extra Options:",
+    "CloneFromPrevious": "Clone From Previous",
+    "FrameX": "Frame: {00}",
+    "FrameCount": "Frames",
+    "FrameDuration": "Frame Duration (ms)",
+    "FrameOptions": "Frame Options",
+    "Graphic": "Graphic",
+    "HorizontalFrames": "Horizontal",
+    "LoopCount": "Loop Count",
+    "DisableRotations": "Disable Rotations",
+    "Playback": "Playback",
+    "Play": "Play",
+    "Pause": "Pause",
+    "VerticalFrames": "Graphic Vertical Frames:",
+    "LoopSoundDuringPreview": "Loop sound during preview"
   },
   "Attributes": {
     "animation": "Animation:",
@@ -103,7 +118,33 @@
     "zgateway": "Gateway",
     "zlevel1": "Level 1",
     "zlevel2": "Level 2",
-    "znone": "None"
+    "znone": "None",
+    "AttributeTypes": {
+      "8": "Map Animation",
+      "1": "Blocked",
+      "11": "Critter",
+      "9": "Grapple Stone",
+      "2": "Item Spawn",
+      "4": "Npc Avoid",
+      "7": "Resource Spawn",
+      "10": "Slide",
+      "6": "Map Sound",
+      "0": "Walkable",
+      "5": "Warp",
+      "3": "Z-Dimension"
+    },
+    "AttributeType": "Attribute Type",
+    "Direction": "Direction",
+    "DistanceFormat": "{00} tiles",
+    "Map": "Map",
+    "RespawnTime": "Respawn Time (ms)",
+    "RespawnTimeTooltip": "0 for server default",
+    "SoundDistance": "Distance",
+    "SoundInterval": "Loop Interval",
+    "WarpX": "X",
+    "WarpY": "Y",
+    "WarpDirection": "Direction",
+    "WarpSound": "Sound"
   },
   "ClassEditor": {
     "abilitypowerboost": "Ability Pwr (+{00}):",
@@ -201,7 +242,9 @@
     "title": "Class Editor",
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this class? This action cannot be reverted!",
-    "undotitle": "Undo Changes"
+    "undotitle": "Undo Changes",
+    "addsprite": "Add Sprite",
+    "AttackSpriteOverride": "Sprite Attack Animation:"
   },
   "Colors": {
     "presets": {
@@ -312,7 +355,10 @@
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this craft? This action cannot be reverted!",
     "undotitle": "Undo Changes",
-    "commonevent": "Common Event:"
+    "commonevent": "Common Event:",
+    "FailureChance": "Failure (%):",
+    "ItemLossChance": "Item Loss (%):",
+    "Requirements": "Craft Requirements"
   },
   "Directions": {
     "dir": {
@@ -343,7 +389,8 @@
     "removecondition": "Remove Condition",
     "removelist": "Remove List",
     "save": "Save",
-    "title": "Dynamic Requirements"
+    "title": "Dynamic Requirements",
+    "instructionscraft": "Below are condition lists. If conditions are met on any of the lists then the player can craft this item."
   },
   "Errors": {
     "disconnected": "Disconnected!",
@@ -353,7 +400,12 @@
     "importfailed": "Cannot import map. Currently selected map is not an Intersect map file or was exported with a different version of the Intersect editor!",
     "importfailedcaption": "Failed to import map!",
     "resourcesnotfound": "The resources directory could not be found! Intersect will now close.",
-    "resourcesnotfoundtitle": "Resources not found!"
+    "resourcesnotfoundtitle": "Resources not found!",
+    "InvalidDirectory": "You have selected an invalid directory, would you like to try again?",
+    "InvalidDirectoryCaption": "Invalid Directory",
+    "InvalidInputCaption": "Invalid Input",
+    "InvalidInputXCaption": "Invalid Input - {0}",
+    "UnableToParseInvalidIntegerFormat": "Unable to parse '{00}', the input should only be digits and the minus sign (-) for negative numbers."
   },
   "EventChangeFace": {
     "cancel": "Cancel",
@@ -406,14 +458,18 @@
       "2": "Up to Amount"
     },
     "okay": "Ok",
-    "title": "Change Player Items"
+    "title": "Change Player Items",
+    "GuildVariable": "Guild Variable"
   },
   "EventEquipItems": {
     "cancel": "Cancel",
     "item": "Item:",
     "okay": "Ok",
     "title": "Equip Player Items",
-    "unequip": "Unequip?"
+    "unequip": "Unequip?",
+    "EquipTitle": "Equip Item",
+    "slot": "Slot:",
+    "TriggerCooldown": "Trigger Cooldown?"
   },
   "EventChangeVital": {
     "cancel": "Cancel",
@@ -451,7 +507,8 @@
     "cancel": "Cancel",
     "okay": "Ok",
     "spell": "Spell: ",
-    "title": "Change Player Spells"
+    "title": "Change Player Spells",
+    "RemoveBound": "Remove Bound Spell ?"
   },
   "EventChangeSprite": {
     "cancel": "Cancel",
@@ -479,13 +536,17 @@
     "channels": {
       "0": "Player",
       "1": "Local",
-      "2": "Global"
+      "2": "Global",
+      "3": "Party",
+      "4": "Guild"
     },
     "color": "Color:",
     "commands": "Chat Commands",
     "okay": "Ok",
     "text": "Text:",
-    "title": "Add Chatbox Text"
+    "title": "Add Chatbox Text",
+    "ShowChatBubble": "Show Chat Bubble",
+    "ShowChatBubbleInProximity": "Show Chat Bubble in Proximity"
   },
   "EventCommandList": {
     "addvariable": "Add {00}",
@@ -639,7 +700,33 @@
     "enddisbandguild": "End Disband Guild",
     "openguildbank": "Open Guild Bank",
     "setguildbankslots": "Set Guild Bank Slots",
-    "resetstatpointallocations": "Reset Player Stat Point Allocations"
+    "resetstatpointallocations": "Reset Player Stat Point Allocations",
+    "CastSpellOn": "Cast Spell '{00}' [include self: {01}, include party: {02}; include guild: {03})",
+    "unequipslot": "Unequip Player Slot [{00}]",
+    "CommonEventInstanced": "Start Common Event For All on Instance: {00} (Allow in overworld: {01})",
+    "dupguildvariable": "Guild Variable: {00}'s Value",
+    "DupUserVariable": "{00}: {01}'s Value",
+    "addguildvariable": "Add Guild Variable: {00}'s Value",
+    "AddUserVariable": "Add {00}: {01}'s Value",
+    "subtractguildvariable": "Subtract Guild Variable: {00}'s Value",
+    "SubtractUserVariable": "Subtract {00}: {01}'s Value",
+    "multiplyguildvariable": "Multiply Guild Variable: {00}'s Value",
+    "MultiplyUserVariable": "Multiply {00}: {01}'s Value",
+    "divideguildvariable": "Divide Guild Variable: {00}'s Value",
+    "DivideUserVariable": "Divide {00}: {01}'s Value",
+    "leftshiftguildvariable": "Left Bit Shift Guild Variable: {00}'s Value",
+    "LeftShiftUserVariable": "Left Bit Shift {00}: {01}'s Value",
+    "rightshiftguildvariable": "Right Bit Shift Guild Variable: {00}'s Value",
+    "RightShiftUserVariable": "Right Bit Shift {00}: {01}'s Value",
+    "FadeIn": "Screen Fade In",
+    "Fade": "Screen Fade: {00} @ {02}ms (Wait for completion: {01})",
+    "FadeCancel": "Screen Fade: {00} (Wait for completion: {01})",
+    "FadeOut": "Screen Fade Out",
+    "guildvariable": "Set Guild Variable {00} ({01})",
+    "UserVariable": "Set {00} {01} ({02})",
+    "OpenCraftingJournal": "Open Crafting Journal [{00}]",
+    "PlayAnimationInstanced": " (Instanced: {00})",
+    "InstancedWarp": "Warp Player to {04} instance [Map: {00} X: {01} Y: {02} Dir: {03}]"
   },
   "EventChangePlayerColor": {
     "cancel": "Cancel",
@@ -717,7 +804,9 @@
       "disbandguild": "Disband Guild",
       "openguildbank": "Open Guild Bank",
       "setguildbankslots": "Set Guild Bank Slots Count",
-      "resetstatallocations": "Reset Stat Point Allocations"
+      "resetstatallocations": "Reset Stat Point Allocations",
+      "castspellon": "Cast Spell On",
+      "fade": "Screen Fade"
     }
   },
   "EventCompleteQuestTask": {
@@ -773,7 +862,8 @@
       "20": "Map Zone Type is...",
       "1": "Player Variable is...",
       "2": "Global Switch is...",
-      "3": "Global Variable is..."
+      "3": "Global Variable is...",
+      "21": "Check Equipped Slot..."
     },
     "endrange": "End Range:",
     "false": "False",
@@ -845,7 +935,16 @@
     "inguild": "In Guild With At Least Rank...",
     "rank": "Rank:",
     "mapzonetypeis": "Map Zone Type is:",
-    "mapzonetypelabel": "Zone Type:"
+    "mapzonetypelabel": "Zone Type:",
+    "EquipmentSlot": "Slot",
+    "CheckEquipment": "Check Equipment",
+    "guildvariable": "Guild Variable",
+    "guildvariablevalue": "Guild Variable Value: ",
+    "NpcGroup": "NPCs",
+    "NpcLabel": "NPC:",
+    "SpecificNpcCheck": "Specify NPC?",
+    "CheckBank": "Check Bank?",
+    "UserVariableValue": "User Variable Value:"
   },
   "EventConditionDesc": {
     "admin": "Admin",
@@ -897,7 +996,13 @@
     "tasknotfound": "Not Found",
     "time": "Time is between {00} and {01}",
     "timeinvalid": "invalid",
-    "true": "True"
+    "true": "True",
+    "checkequippedslot": "Player has slot {00} occupied",
+    "guildvariable": "Guild Variable: {00} {01}",
+    "guildvariablevalue": "Guild Variable: {00}'s Value",
+    "NoNpcsOfTypeOnMap": "No NPCs of type {00} on the map",
+    "SystemTime": "System Time (ms)",
+    "UserVariable": "{00}: {01} {02}"
   },
   "EventCreateGuild": {
     "cancel": "Cancel",
@@ -911,7 +1016,8 @@
     "servervariable": "Global Variable",
     "cancel": "Cancel",
     "okay": "Ok",
-    "title": "Set Guild Bank Slots Count"
+    "title": "Set Guild Bank Slots Count",
+    "GuildVariable": "Guild Variable"
   },
   "EventEditor": {
     "addcommand": "Add Commands",
@@ -935,7 +1041,12 @@
       "11": "Server Variable Changed",
       "12": "Guild Member Joined",
       "13": "Guild Member Left",
-      "14": "Guild Member Kicked"
+      "14": "Guild Member Kicked",
+      "15": "Guild Variable Changed",
+      "16": "Inventory Changed",
+      "17": "Map Changed",
+      "18": "User Variable Changed",
+      "19": "Level Down"
     },
     "conditions": "Conditions",
     "copypage": "Copy Page",
@@ -1006,7 +1117,10 @@
       "2": "Autorun",
       "3": "Player Bump"
     },
-    "walkinganim": "Walking Anim"
+    "walkinganim": "Walking Anim",
+    "ignorenpcavoids": "Ignore Npc Avoids",
+    "ParallelRun": "Can run in Parallel?",
+    "VariableTrigger": "Variable:"
   },
   "EventEndQuest": {
     "cancel": "Cancel",
@@ -1024,7 +1138,9 @@
     "variable": "Variable",
     "manual": "Manual",
     "playervariable": "Player Variable",
-    "servervariable": "Global Variable"
+    "servervariable": "Global Variable",
+    "EnableLosingLevels": "Enable losing levels?",
+    "GuildVariable": "Guild Variable"
   },
   "EventGotoLabel": {
     "cancel": "Cancel",
@@ -1103,7 +1219,11 @@
       "walkinganimoff": "Walking Animation: Off",
       "walkinganimon": "Walking Animation: On",
       "walkthroughoff": "Walkthrough: Off",
-      "walkthroughon": "Walkthrough: On"
+      "walkthroughon": "Walkthrough: On",
+      "moveupleft": "Move Up Left",
+      "moveupright": "Move Up Right",
+      "movedownright": "Move Down Right",
+      "movedownleft": "Move Down Left"
     },
     "ignoreblocked": "Ignore if Blocked",
     "okay": "Ok",
@@ -1116,7 +1236,9 @@
     "cancel": "Cancel",
     "label": "Table:",
     "okay": "Ok",
-    "title": "Open Crafting"
+    "title": "Open Crafting",
+    "JournalMode": "Journal Mode?",
+    "JournalModeTooltip": "Opens the crafting window without the option for the player to actually craft."
   },
   "EventOpenShop": {
     "cancel": "Cancel",
@@ -1137,7 +1259,9 @@
     "spawntype0": "Specific Tile",
     "spawntype1": "On/Around Entity",
     "this": "[THIS EVENT]",
-    "title": "Play Animation"
+    "title": "Play Animation",
+    "InstanceToPlayer": "Instance to Player?",
+    "InstanceToPlayerTooltip": "When enabled, only the player running this event will see the animation."
   },
   "EventPlayBgm": {
     "cancel": "Cancel",
@@ -1220,7 +1344,11 @@
     "stringsetvalue": "Value:",
     "stringreplacefind": "Find:",
     "stringreplacereplace": "Replace:",
-    "stringtip": "Text variables work with strings. Click here for a list!"
+    "stringtip": "Text variables work with strings. Click here for a list!",
+    "guild": "Guild Variable",
+    "VariableValue": "Variable Value",
+    "SetVariableGroup": "Set to Variable",
+    "SelectVariableGroup": "Select Variable"
   },
   "EventShowOptions": {
     "cancel": "Cancel",
@@ -1254,7 +1382,8 @@
     "minval": "Minimum Value",
     "maxval": "Maximum Value",
     "minlength": "Minimum Length",
-    "maxlength": "Maximum Length"
+    "maxlength": "Maximum Length",
+    "guildvariable": "Guild Variable"
   },
   "EventSpawnNpc": {
     "cancel": "Cancel",
@@ -1274,7 +1403,10 @@
     "cancel": "Cancel",
     "label": "Common Event:",
     "okay": "Ok",
-    "title": "Start Common Event"
+    "title": "Start Common Event",
+    "AllInInstance": "Run for all players in instance?",
+    "AllowInOverworld": "Even on Overworld?",
+    "OverworldOverrideTooltip": "WARNING: THIS WILL RUN FOR (ALMOST) ALL USERS, USE AT YOUR OWN RISK!"
   },
   "EventStartQuest": {
     "cancel": "Cancel",
@@ -1304,7 +1436,13 @@
   },
   "General": {
     "none": "None",
-    "missing": "Missing Translation"
+    "missing": "Missing Translation",
+    "Cancel": "Cancel",
+    "False": "False",
+    "No": "No",
+    "Okay": "Okay",
+    "True": "True",
+    "Yes": "Yes"
   },
   "ItemEditor": {
     "abilitypowerbonus": "Ability Pwr:",
@@ -1330,7 +1468,8 @@
       "2": "Life Steal",
       "3": "Tenacity",
       "4": "Luck",
-      "5": "EXP"
+      "5": "EXP",
+      "6": "Mana Steal"
     },
     "bonuses": "Stat Bonuses",
     "bonusrange": "Stat Bonus Range (+-):",
@@ -1392,7 +1531,13 @@
       "2": "Uncommon",
       "3": "Rare",
       "4": "Epic",
-      "5": "Legendary"
+      "5": "Legendary",
+      "None": "None",
+      "Common": "Common",
+      "Uncommon": "Uncommon",
+      "Rare": "Rare",
+      "Epic": "Epic",
+      "Legendary": "Legendary"
     },
     "projectile": "Projectile:",
     "requirementsgroup": "Requirements",
@@ -1431,7 +1576,45 @@
     "undotitle": "Undo Changes",
     "vital": "Vital:",
     "vitalbonuses": "Vital Bonuses",
-    "weaponproperties": "Weapon Properties"
+    "weaponproperties": "Weapon Properties",
+    "AddBonusEffect": "Add",
+    "BlockChance": "Block Chance (%):",
+    "BlockAmount": "Block Amount (%):",
+    "BlockAbsorption": "Block Damage Absorption (%):",
+    "BonusEffectGroup": "Bonus Effects",
+    "BonusEffectItem": "{00}: {01}%",
+    "DespawnTime": "Item Despawn Time (ms)",
+    "DespawnTimeTooltip": "0 for server default",
+    "CooldownOptions": "Cooldown Options",
+    "EventGroup": "Event Triggers",
+    "EventGroupLabel": "Event",
+    "EventTriggerNames": {
+      "OnPickup": "On Pickup",
+      "OnDrop": "On Drop",
+      "OnUse": "On Use",
+      "OnEquip": "On Equip",
+      "OnUnequip": "On Unequip",
+      "OnHit": "On Hit",
+      "OnDamageReceived": "On Damage Received"
+    },
+    "EventTriggerSelections": {
+      "OnPickup": "On Pickup: {00}",
+      "OnDrop": "On Drop: {00}",
+      "OnUse": "On Use: {00}",
+      "OnEquip": "On Equip: {00}",
+      "OnUnequip": "On Unequip: {00}",
+      "OnHit": "On Hit: {00}",
+      "OnDamageReceived": "On Damage Received: {00}"
+    },
+    "EventTriggerDisabled": "'{00}' trigger is disabled for this item type",
+    "RemoveBonusEffect": "Remove",
+    "StackOptions": "Stackable Options",
+    "StatRangeFrom": "From",
+    "StatRangeItem": "{00}: {01} to {02}",
+    "StatRangeTitle": "Stat Ranges",
+    "StatRangeTo": "to",
+    "AttackSpriteOverride": "Sprite Attack Animation:",
+    "ShieldProperties": "Shield Properties:"
   },
   "LightEditor": {
     "color": "Color:",
@@ -1520,7 +1703,10 @@
     "tools": "Tools",
     "toolsdir": "tools",
     "undo": "Undo",
-    "view": "View"
+    "view": "View",
+    "Dropper": "Dropper (I)",
+    "Brush": "Brush (B)",
+    "MenuToolsPackageUpdate": "Package Update"
   },
   "MapCacheProgress": {
     "title": "Saving Map Cache",
@@ -1597,6 +1783,70 @@
       "0": "Normal",
       "1": "Safe",
       "2": "Arena"
+    },
+    "categories": {
+      "general": "General",
+      "lighting": "Lighting",
+      "misc": "Misc",
+      "overlay": "Overlay",
+      "fog": "Fog",
+      "audio": "Audio",
+      "weather": "Weather",
+      "player": "Player"
+    },
+    "displaynames": {
+      "ahue": "AHue",
+      "bhue": "BHue",
+      "brightness": "Brightness",
+      "fog": "Fog",
+      "fogalpha": "Fog Alpha",
+      "fogxspeed": "Fog X Speed",
+      "fogyspeed": "Fog Y Speed",
+      "ghue": "GHue",
+      "isindoors": "Is Indoors",
+      "music": "Music",
+      "name": "Name",
+      "overlaygraphic": "Overlay Graphic",
+      "panorama": "Panorama",
+      "playerlightcolor": "Player Light Color",
+      "playerlightexpand": "Player Light Expand",
+      "playerlightintensity": "Player Light Intensity",
+      "playerlightsize": "Player Light Size",
+      "rhue": "RHue",
+      "sound": "Sound",
+      "zonetype": "Zone Type",
+      "weather": "Weather",
+      "weatherxspeed": "Weather X Speed",
+      "weatheryspeed": "Weather Y Speed",
+      "weatherintensity": "Weather Intensity",
+      "hideequipment": "Hide Equipment"
+    },
+    "descriptions": {
+      "ahuedesc": "How strong the overlay appears. (Range: 0 [transparent/invisible] to 255 [solid/can't see map])",
+      "bhuedesc": "The amount of blue in the overlay. (Range: 0 to 255)",
+      "brightnessdesc": "How bright is this map? (Range: 0 to 100).",
+      "fogalphadesc": "How strong the fog overlay appears. (Range: 0 [transparent/invisible] to 255 [solid/can't see map])",
+      "fogdesc": "The overlayed image on the map. Generally used for fogs or sun beam effects.",
+      "fogxspeeddesc": "Fog Horizontal Speed (Range: -5 to 5)",
+      "fogyspeeddesc": "Fog Vertical Speed (Range: -5 to 5)",
+      "ghuedesc": "The amount of green in the overlay. (Range: 0 to 255)",
+      "isindoorsdesc": "Is this map indoors?",
+      "musicdesc": "Looping background music for this map.",
+      "namedesc": "The name of this map.",
+      "overlaygraphicdesc": "This is an image that appears above the map. (Not shown in editor.)",
+      "panoramadesc": "This is an image that appears behind the map. It can be seen where no tiles are placed.",
+      "playerlightcolordesc": "Which color is the players light? (Default: White)",
+      "playerlightexpanddesc": "How far into the light does the effect start fading? (0.00 to 1.00)",
+      "playerlightintensitydesc": "How strong the light is at its brightest point. (0 to 255)",
+      "playerlightsizedesc": "How large is the light around the player? (In pixels 0-1000)",
+      "rhuedesc": "The amount of red in the overlay. (Range: 0 to 255)",
+      "sounddesc": "Looping sound effect for this map.",
+      "zonedesc": "The type of map this is.",
+      "weatherdesc": "The animation for each weather particle.",
+      "weatherxspeeddesc": "How fast horizontally weather particles move across the screen. (Range -5 to 5)",
+      "weatheryspeeddesc": "How fast vertically weather particles move across the screen. (Range -5 to 5)",
+      "weatherintensitydesc": "How intence the weather is (number of particles). (Range 0 to 100)",
+      "hideequipmentdesc": "Toggling this on will stop rendering of item paperdolls while on this map."
     }
   },
   "NpcEditor": {
@@ -1701,7 +1951,21 @@
     "title": "Npc Editor",
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this npc? This action cannot be reverted!",
-    "undotitle": "Undo Changes"
+    "undotitle": "Undo Changes",
+    "DropMaxAmount": "Max Amount:",
+    "DropMinAmount": "Min Amount:",
+    "ImmunitiesTitle": "Immunities",
+    "Tenacity": "Tenacity (%):",
+    "Immunities": {
+      "Knockback": "Knockback",
+      "Silence": "Silence",
+      "Stun": "Stun",
+      "Snare": "Snare",
+      "Blind": "Blind",
+      "Transform": "Transform",
+      "Sleep": "Sleep",
+      "Taunt": "Taunt"
+    }
   },
   "NpcSpawns": {
     "add": "Add",
@@ -1712,7 +1976,9 @@
     "randomlocation": "Random",
     "remove": "Remove",
     "spawndeclared": "Spawn Location: Declared",
-    "spawnrandom": "Spawn Location: Random"
+    "spawnrandom": "Spawn Location: Random",
+    "PulseColorButton": "Selected NPC highlight color",
+    "SpawnCount": "Spawn Count: {00}"
   },
   "Options": {
     "browsebtn": "Browse",
@@ -1727,7 +1993,10 @@
     "packageoptions": "Asset Packing Options",
     "musicbatch": "Music Batch Size",
     "soundbatch": "Sound Batch Size",
-    "texturesize": "Texture Pack Size"
+    "texturesize": "Texture Pack Size",
+    "MusicPackSize": "Max Music Pack Size (MB):",
+    "SoundPackSize": "Max Sound Pack Size (MB):",
+    "CursorSprites": "Enable cursor sprites for map tools."
   },
   "ProgressForm": {
     "cancel": "Cancel"
@@ -1776,7 +2045,18 @@
     "title": "Projectile Editor",
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this projectile? This action cannot be reverted!",
-    "undotitle": "Undo Changes"
+    "undotitle": "Undo Changes",
+    "BehaviorDefault": "Default",
+    "BehaviorDirectShot": "Direct Shot Behavior",
+    "BehaviorHoming": "Homing Behavior",
+    "GrappleOptionsTitle": "Grapple Options",
+    "GrappleOpts": {
+      "MapAttribute": "On Map Attribute",
+      "Player": "On Player",
+      "NPC": "On NPC",
+      "Resource": "On Resource"
+    },
+    "TargettingOptions": "Targetting Options"
   },
   "QuestEditor": {
     "actions": "Quest Actions:",
@@ -1874,7 +2154,9 @@
     "undoprompt": "Are you sure you want to undo changes made to this resource? This action cannot be reverted!",
     "undotitle": "Undo Changes",
     "walkableafter": "Walkable after resource removal?",
-    "walkablebefore": "Walkable before resource removal?"
+    "walkablebefore": "Walkable before resource removal?",
+    "DropMaxAmount": "Max Amount:",
+    "DropMinAmount": "Min Amount:"
   },
   "ShopEditor": {
     "addboughtitem": "Add Item:",
@@ -2026,7 +2308,9 @@
     "undo": "Undo Changes",
     "undoprompt": "Are you sure you want to undo changes made to this spell? This action cannot be reverted!",
     "undotitle": "Undo Changes",
-    "warptomap": "Warp Caster:"
+    "warptomap": "Warp Caster:",
+    "CastSpriteOverride": "Sprite Cast Anim.:",
+    "TickAnimation": "Tick Animation:"
   },
   "VariableEditor": {
     "cancel": "Cancel",
@@ -2059,7 +2343,11 @@
       "3": "String"
     },
     "undo": "Undo Changes",
-    "value": "Value:"
+    "value": "Value:",
+    "guildvariable": "Guild Variable",
+    "guildvariables": "Guild Variables",
+    "textidguildvar": "Text Id: \\guildvar ",
+    "UserVariableId": "Text Id: \\uservar "
   },
   "TaskEditor": {
     "cancel": "Cancel",
@@ -2168,14 +2456,20 @@
     "invalidbase": "You cannot create the update within the editor folder, the update would include itself!",
     "error": "Error!",
     "calculating": "Calculating checksums, and creating update list...",
-    "done": "Done!"
+    "done": "Done!",
+    "SourceDirectoryPromptDescription": "Pick the directory from which to generate the update",
+    "TargetDirectoryPromptDescription": "Pick the directory in which to save the packaged update"
   },
   "Warping": {
     "direction": "Dir: {00}",
     "map": "Map: {00}",
     "visual": "Open Visual Interface",
     "x": "X: {00}",
-    "y": "Y: {00}"
+    "y": "Y: {00}",
+    "ChangeInstance": "Change instance?",
+    "InstanceType": "Instance Type",
+    "MapInstancingGroup": "Instance Settings",
+    "WarpSound": "Sound:"
   },
   "WarpSelection": {
     "cancel": "Cancel",
@@ -2185,5 +2479,88 @@
     "mapselectiontitle": "Map Selection",
     "okay": "Ok",
     "title": "Warp Tile Selection"
+  },
+  "Direction": {
+    "CritterDirection": {
+      "0": "Random",
+      "1": "Up",
+      "2": "Down",
+      "3": "Left",
+      "4": "Right"
+    },
+    "WarpDirections": {
+      "0": "Retain Direction",
+      "1": "Up",
+      "2": "Down",
+      "3": "Left",
+      "4": "Right"
+    },
+    "dir": {
+      "None": "Retain Direction",
+      "Up": "Up",
+      "Down": "Down",
+      "Left": "Left",
+      "Right": "Right"
+    }
+  },
+  "EventCastSpellOn": {
+    "Cancel": "Cancel",
+    "IncludeGuildies": "Online Guild Members",
+    "IncludePartyMembers": "Party Members",
+    "IncludeSelf": "Self",
+    "LabelSpell": "Spell",
+    "LabelTargets": "Targets",
+    "Okay": "Okay",
+    "Title": "Cast Spell On"
+  },
+  "EventScreenFade": {
+    "Action": "Action",
+    "FadeTypes": {
+      "0": "Cancel",
+      "1": "Fade In",
+      "2": "Fade Out"
+    },
+    "Cancel": "Cancel",
+    "Okay": "Okay",
+    "Duration": "Duration (ms)",
+    "Title": "Screen Fade",
+    "WaitForComplete": "Wait for Completion?"
+  },
+  "GameObjectStrings": {
+    "New": "New {00}",
+    "UserVariable": "User Variable",
+    "UserVariables": "User Variables"
+  },
+  "Time": {
+    "SuffixDays": "{00}d",
+    "SuffixHours": "{00}h",
+    "SuffixMilliseconds": "{00}ms",
+    "SuffixMinutes": "{00}m",
+    "SuffixSeconds": "{00}s",
+    "SuffixWeeks": "{00}w"
+  },
+  "MapInstance": {
+    "InstanceTypes": {
+      "Overworld": "Overworld",
+      "Personal": "Personal",
+      "Guild": "Guild",
+      "Shared": "Shared"
+    }
+  },
+  "VariableSelector": {
+    "Button": "Select a Variable",
+    "LabelCurrentSelection": "Current Selection:",
+    "LabelGroup": "Select a Variable",
+    "LabelVariableType": "Variable Type",
+    "LabelVariableValue": "Variable",
+    "Title": "Variable Selector",
+    "ValueCurrentSelection": "{00} ({01})",
+    "ValueNoneSelected": "None Selected!",
+    "VariableTypes": {
+      "0": "Player Variable",
+      "1": "Server Variable",
+      "2": "Guild Variable",
+      "3": "User Variable"
+    }
   }
 }
